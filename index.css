@@ -1,0 +1,184 @@
+
+#line, #line2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    height: auto;
+    box-shadow: 0 1px 5px 4px rgba(250,0,0,0.2);
+}
+#line3 {
+    border-bottom: 1px solid black;
+    height: auto;
+    box-shadow: 0 1px 5px 4px rgba(250,0,0,0.2);
+}
+
+#container_header {
+    background-color: #262626;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    box-shadow: 0 10px 4px -4px rgba(150,0,0,0.2);
+}
+
+
+#media_icons, #media_icons1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#phone, #email ,#phone1, #email1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto", "Verdana", sans-serif;
+    font-size: 14px;
+
+
+}
+
+#phone > a, #email > a , #phone1 > a, #email1 > a{
+    text-decoration: none;
+    color: white;
+}
+
+#header_title {
+    padding-bottom: 15px;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-family: "Roboto", "Verdana", sans-serif;
+}
+
+#car_conteiner {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@keyframes header_anim {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+#car {
+  transform: translateX(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#description {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#description #description_text {
+        font-family: "Roboto", "Verdana", sans-serif;
+        font-size: 20px;
+}
+
+#description_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#table1, #table2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    font-family: "Roboto", "Verdana", sans-serif;
+    font-size: 14.5px;
+
+}
+
+#table1  tr  td, #table1  tr  th {
+    text-align: center;
+    border: 1px solid gray;
+    width: 300px;
+    word-wrap: initial;
+
+}
+#table2  tr  td, #table2  tr  th {
+    text-align: center;
+    border: 1px solid gray;
+    width: 300px;
+}
+
+#pictures_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#picture1_box {
+    display: flex;
+    background-image: url("picture1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+}#picture2_box {
+    display: flex;
+    background-image: url("picture2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+}
+
+#footer {
+    background-color: #262626;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    box-shadow: 0 10px 4px -4px rgba(150,0,0,0.2);
+}
+
+#footer_rights {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #262626;
+    font-family: "Roboto", "Verdana", sans-serif;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 50px;
+
+}
+
+.button {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+
+
+}
