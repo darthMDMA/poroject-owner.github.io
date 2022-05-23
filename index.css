@@ -76,7 +76,7 @@ h1 {
 #car {
   transform: translateX(0);
   animation-name: header_anim;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
